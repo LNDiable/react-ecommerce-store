@@ -1,4 +1,4 @@
-import App from "../App"
+
 
 
 function Navbar()

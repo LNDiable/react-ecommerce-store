@@ -1,15 +1,15 @@
 
-import PS5 from '../assets/PS5.png'
 
-function ProductCard(){
+
+function ProductCard(props){
     return(
      <div className='wrapper'>  
     <div className='product-card'>
-    <img src={PS5} alt="PS5" className='product-image'></img>
+    <img src={props.img} alt="PS5" className='product-image'></img>
     <div className='Product-info'>
-    <h3>Playstation 5</h3>
-    <p>599</p>
-    <p>In stock</p></div>
+    <h3>{props.name}</h3>
+    <p>£ {props.price}</p>
+    <p>{props.stock}</p></div>
     <button type='button' className='btn'>Add to basket</button>
     </div></div> 
 
@@ -17,3 +17,4 @@ function ProductCard(){
     )
 }
 export default ProductCard
+

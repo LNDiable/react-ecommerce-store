@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Cart from './pages/Cart'
 import HomePage from './pages/HomePage'
 import Login from './pages/Login'
+import ProductDetailsPage from './pages/ProductDetailsPage'
 import ProductsPage from './pages/ProductsPage'
 
 function App() {
@@ -19,7 +20,11 @@ function App() {
     <Route path='/products' element={<ProductsPage />}/>
     <Route path="/login" element={<Login/>}/>
     <Route path="/cart" element={<Cart/>}/>
-    </Routes></>
+     <Route path="/products/:id" element={<ProductDetailsPage/>}/>
+    </Routes>
+
+ </>
+
 
 
   )

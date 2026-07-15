@@ -1,9 +1,9 @@
 function HomePage() {
     return (
-        <>
-        <h1>HomePage</h1>
-        </>
-    )
+        <div>
+        <h1>Amazon clone</h1>
+        <div> <img src="./assets/Home.jpg" alt="Home page"/></div>
+        </div> )
 }
 
 export default HomePage

@@ -3,7 +3,7 @@
   padding: 5px 10px;
   border-radius: 5px;
   color: var(--accent);
-  background: var(--accent-bg);
+  background: white;
   border: 2px solid transparent;
   transition: border-color 0.3s;
   margin-bottom: 24px;
@@ -214,7 +214,7 @@
   object-fit: cover;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 30px;
+  
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
   &:hover{transform: scale(1.02);}
